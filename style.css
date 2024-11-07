@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.title-1
+{
+  font-family: "DM Sans", sans-serif;
+    font-size: calc(100% + 3vw + 2vh);
+    line-height: 120%;
+    font-weight: bold;
+}
+.title-2
+{
+  font-family: "DM Sans", sans-serif;
+  font-size: calc(100% + 2vw + 2vh);
+  font-weight: bold;
+}
+.title-3
+{
+  font-family: "DM Sans", sans-serif;
+    font-size: calc(100% + 1vw + 2vh);
+}
+.subtitle-1
+{
+  font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+}
+.subtitle-2
+{
+  font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+}
+.button
+{
+  font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+}
+.text-1
+{
+  font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+}
+.text-2
+{
+  font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+}
+.caption
+{
+  font-family: "DM Sans", sans-serif;
+    font-size: 12px;
+}
+.box
+{
+    background-color: #1594FE;
+    padding: 10px;
+    border-radius: 50px;
+}
+.input-group-text {
+     background-color: #fff; 
+    border-left: 0px;
+}
+.form-control {
+    border-right: 0px;
+}
+
+.video-frame {
+    position: relative;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+.video-frame a {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-26px, -26px);
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 52px;
+    font-size: 30px;
+}
+.background
+{
+    background-image: url(images/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.progress, .progress-stacked {
+    --bs-progress-height: 0.3rem;
+}
+.listt
+{
+    list-style-type: none;
+    padding: 20px 10px;
+}
+.listt a
+{
+    text-decoration: none;
+    color: white;
+}
+.listttt
+{
+    list-style-type: none;
+    border: 1px solid #fefefe; 
+    border-radius: 50px;
+}
+.lisst
+{
+    list-style-type: none;
+}
+.lisst a
+{
+    text-decoration: none;
+}
